@@ -39,16 +39,23 @@ header,main,footer{ /*VOLTAR A PARTI DAQUE*/
 }
 
 #sociais{
-    background-color: var(--cordestaque);
+    
     position: absolute;
     width: 160px;
     right: 20px;
-    top: 20px;
-    
+    top: 300px;
+    display: flex;
+    justify-content: space-between;
+
 
 }
 
-.social{width: 35px;
+.social{
+    width: 45px;
+    filter: invert(0) opacity(0.8);
+}
+.social:hover{
+filter: invert(0) opacity(0.7) drop-shadow(0px 0px 0px rgba(247, 12, 4, 0.966));
 }
 
 #capa{
@@ -73,4 +80,38 @@ font-family:var(--fontetitulos);
 #capa p{
     color: var(--corprimaria) ;
     font-size: 1.5em;
+}
+#fotoperfil{
+    width: 130px; 
+    position: absolute;
+    left: 30px; 
+    top: 250px;
+    border-radius: 15px;
+
+}
+nav{
+     
+     display: flex;
+     justify-content: center;
+
+}
+#menu{
+
+    
+    width: 300px;
+    display: flex;
+    justify-content:space-between 
+}
+#menu a{  
+      
+    text-decoration:none ;
+    background-color: var(--corprimaria);
+    color: var(--corfundo);
+    padding: 8px;
+    border-radius: 3px;
+
+}
+#menu a:hover{
+    background-color: var(--cordestaque);
+    color: var(--cortexto)
 }
