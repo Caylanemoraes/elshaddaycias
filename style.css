@@ -84,7 +84,7 @@ font-family:var(--fontetitulos);
 #fotoperfil{
     width: 130px; 
     position: absolute;
-    left: 30px; 
+    left: 0px; 
     top: 250px;
     border-radius: 15px;
 
@@ -114,4 +114,8 @@ nav{
 #menu a:hover{
     background-color: var(--cordestaque);
     color: var(--cortexto)
+}
+
+ul{
+    margin-left: 20px;
 }
